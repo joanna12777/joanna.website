@@ -1,0 +1,55 @@
+header {
+    border: 2px solid darkorchid;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: pink;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 40%;
+    border: 2px solid plum;
+    border-radius: 50%;
+    box-shadow:2px 2px 10px gold;
+}
+
+header img.hover {
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background-color: plum;
+    color: blanchedalmond;
+    border: none;
+}
+header button:hover {
+    background-color: aqua;
+    color: orangered;
+   border: 1px solid hotpink;
+   transform: scale(.9);
+   transition: all .3s ease-in-out;
+}
+.project-image img:hover {  
+    transform: scale(.9);
+    transform: all.3s ease-in-out;
+    box-shadow: 4px 4px 10px orange;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    color: blue;
+    border-top: 3px solid blue;
+}
+footer img {
+    width: 2px;
+}
